@@ -295,6 +295,26 @@ main {
     background-image: url(./images/comprasAmelieAuclown.jpeg);
 }
 
+.entretenimentoUm {
+    background-image: url(./images/entretenimentoAmelieCarrossel.jpg);
+}
+
+.entretenimentoDois {
+    background-image: url(./images/entretenimentoAmelieCanal.jpeg);
+}
+
+.entretenimentoTres {
+    background-image: url(./images/entretenimentoAmelieBasilica.jpg);
+}
+
+.entretenimentoQuatro {
+    background-image: url(./images/entretenimentoAmelieNotreDame.jpg);
+}
+
+.entretenimentoCinco {
+    background-image: url(./images/entretenimentoAmelieStudio28.jpg);
+}
+
 
 
 /* FOOTER */
