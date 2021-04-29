@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+/* RESET */
+
+*, ::after, ::before{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f9f9f9;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 16px;
+}
+
+a {
+  font-size: 16px;
+  text-decoration: none;
+}
+
+/* HEADER */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90vw;
+  height: 10vh;
+  margin: auto;
+}
+
+/* MAIN */
+
+#banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 80vh;
+  background-image: url(./img/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.40)
+}
+
+.banner-content > h1 {
+  font-family: 'Dancing Script', 'Lato', sans-serif;
+  font-size: 65px;
+}
+
+#segmentos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90vw;
+  height: 80vh;
+  margin: auto;
+  background-color: #f9f9f9;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  height: 50%;
+  border-radius: 5px;
+}
+
+.box:nth-child(1) {
+  background-image: url(./img/compras.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box:nth-child(2) {
+  background-image: url(./img/entretenimento.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box:nth-child(3) {
+  background-image: url(./img/gastronomia.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box:nth-child(4) {
+  background-image: url(./img/transporte.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  padding: 60px 20px;
+  border-radius: 5px;
+  background: rgba(16, 29, 2, 0.877);
+}
+
+.call-to-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 40px;
+  font-weight: 600;
+  color: #3A5E14;
+  text-decoration: none;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+/* FOOTER */
+
+
+
+/* Media */
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  header {
+    
+  }
+  
+}
+
+@media screen and (min-width: 340px) and (max-width: 600px) {
+
+}
