@@ -283,6 +283,19 @@ main {
     background-image: url(./images/gastronomiaAmelieLaVede.png);
 }
 
+.comprasUm {
+    background-image: url(./images/comprasAmelieMaisonCollignon.jpeg);
+}
+
+.comprasDois {
+    background-image: url(./images/comprasAmeliePalaceVideo.jpeg);
+}
+
+.comprasTres {
+    background-image: url(./images/comprasAmelieAuclown.jpeg);
+}
+
+
 
 /* FOOTER */
 
